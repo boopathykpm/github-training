@@ -1,8 +1,11 @@
 name: Sample Pipeline
 on: [push]
 jobs:
-  outputs:
+  My First Pipeline:
     runs-on: ubuntu-latest
     steps:
     - name: Print Hello
-      run: echo "Hello Pipeline"
+      run: |
+        echo "Hello Pipeline"
+        ls -la 
+        cat /etc/proc
