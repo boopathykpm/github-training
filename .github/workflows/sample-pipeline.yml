@@ -1,0 +1,8 @@
+name: Sample Pipeline
+on: [push]
+runs-on: ubuntu-latest
+jobs:
+  outputs:
+    steps:
+    - name: Print "Hello"
+      run: echo "Hello Pipeline"
