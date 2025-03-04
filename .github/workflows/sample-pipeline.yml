@@ -1,7 +1,7 @@
 name: Sample Pipeline
 on: [push]
-runs-on: ubuntu-latest
 jobs:
+  runs-on: ubuntu-latest
   outputs:
     steps:
     - name: Print "Hello"
