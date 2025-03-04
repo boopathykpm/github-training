@@ -4,5 +4,5 @@ jobs:
   runs-on: ubuntu-latest
   outputs:
     steps:
-    - name: Print "Hello"
+    - name: Print Hello
       run: echo "Hello Pipeline"
